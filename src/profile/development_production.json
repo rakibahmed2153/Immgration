@@ -1,0 +1,13 @@
+{
+	"DEBUG": false,
+	"TESTING": false,
+	"ENV": "production",
+	"CSRF_ENABLED": true,
+	"basedir": "/Immican-api/",
+	"fileUploadPath": "/Immican-api/src/fileUploadDirectory",
+	"PROPAGATE_EXCEPTIONS": true,
+	"SQLALCHEMY_ECHO": false,
+	"SQLALCHEMY_TRACK_MODIFICATIONS": false,
+	"SQLALCHEMY_POOL_SIZE": 15,
+	"SQLALCHEMY_DATABASE_URI": "postgresql://postgres:admin@localhost:5432/immican"
+}

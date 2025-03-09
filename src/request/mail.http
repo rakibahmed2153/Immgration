@@ -1,0 +1,21 @@
+POST http://127.0.0.1:5001/api/v1/mail/saveMailConfig
+Content-Type: application/json
+
+{
+   "isActive": true,
+   "senderEmail": "noreply@immican.ai",
+   "password": "Ayratech1234",
+   "subject": "Registration Confirmation",
+   "body": "",
+   "signature": "",
+   "port": 465,
+   "server": "mail.immican.ai",
+   "mailFor": "Registration",
+   "key": "key",
+   "createdBy": "",
+   "senderTitle": "immiCan"
+}
+
+###
+GET http://192.168.0.111:5001/api/vi/mail/verify?email=ngnhg&token=hnjgnhg
+Content-Type: application/json

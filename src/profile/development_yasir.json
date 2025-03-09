@@ -1,0 +1,13 @@
+{
+	"DEBUG": true,
+	"TESTING": true,
+	"ENV": "development",
+	"CSRF_ENABLED": true,
+	"basedir": "C:/Users/gamer/Documents/immican/Immican-api",
+	"fileUploadPath": "C:/Users/gamer/Documents/immican/Immican-api/src/fileUploadDirectory",
+	"PROPAGATE_EXCEPTIONS": true,
+	"SQLALCHEMY_ECHO": false,
+	"SQLALCHEMY_TRACK_MODIFICATIONS": false,
+	"SQLALCHEMY_POOL_SIZE": 15,
+	"SQLALCHEMY_DATABASE_URI": "postgresql://postgres:admin@localhost:5432/immican"
+}
