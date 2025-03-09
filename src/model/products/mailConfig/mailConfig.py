@@ -106,8 +106,7 @@ def sendRegistrationVerification(email):
         token = secrets.token_urlsafe(16)
         expiration_time = datetime.utcnow() + timedelta(hours=6)
 
-        # verification_url = f'http://localhost:3000/pages/verify?email={email}&token={token}'
-        verification_url = f'http://sap.immican.ai/pages/verify?email={email}&token={token}'
+        verification_url = f'http://localhost:3000/pages/verify?email={email}&token={token}'
         body = f'Click the following link to verify your email: {verification_url}'
         print('send Registration Verification')
 
@@ -145,8 +144,7 @@ def sendInvitation(email, id, serviceName, meetingLink):
         print('send Registration Verification')
         token = secrets.token_urlsafe(32)
 
-        # verification_url = f'http://localhost:3000/register/?token={token}'
-        verification_url = f'http://sap.immican.ai/register/?token={token}&type=Immigrant'
+        verification_url = f'http://localhost:3000/register/?token={token}&type=Immigrant'
         body = (f'You have received a request for {serviceName} Services. Would you like to accept the request the '
                 f'request?: {verification_url}'
                 f'For Discovery Call Meeting Link ~ ?: {meetingLink}' )
